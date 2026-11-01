@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# MLflow local tracking
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
